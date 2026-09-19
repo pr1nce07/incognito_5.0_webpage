@@ -156,6 +156,9 @@
     filter:saturate(0.82) contrast(1.08) brightness(0.78);
     animation:kenburns 26s ease-out infinite alternate;
   }
+  @media (max-width:640px){
+    .hero-media img{ object-position:72% 28%; }
+  }
   @keyframes kenburns{
     0%{transform:scale(1.12) translate(0,0);}
     100%{transform:scale(1.22) translate(-1.2%,-1.4%);}
@@ -339,6 +342,10 @@
     filter:saturate(0.7) contrast(1.1) brightness(0.62);
     transform:scale(1.08);
     animation:kenburns2 30s ease-in-out infinite alternate;
+  }
+  @media (max-width:640px){
+    .night-media{ min-height:78vh; }
+    .night-media img{ object-position:26% 22%; }
   }
   @keyframes kenburns2{
     0%{transform:scale(1.08) translateY(0);}
@@ -1272,10 +1279,10 @@
   <div class="wrap">
     <div class="file-mark reveal"><span class="num editorial">Biglietto d'invito</span></div>
     <div class="archive-grid">
-      <figure class="archive-card reveal"><img src="Frame 2.png" alt="Incognito cinematic hero"><figcaption>01 — The Invitation</figcaption></figure>
-      <figure class="archive-card reveal"><img src="families.png" alt="Incognito vintage invitation"><figcaption>02 — The Family</figcaption></figure>
-      <figure class="archive-card reveal"><img src="Frame 3.png" alt="Incognito noir night"><figcaption>03 — The Night</figcaption></figure>
-      <figure class="archive-card reveal"><img src="Frame 5.png" alt="Incognito visual archive"><figcaption>04 — The Legacy</figcaption></figure>
+      <figure class="archive-card reveal"><img src="Frame_2.png" alt="Incognito cinematic hero"><figcaption>01 — The Invitation</figcaption></figure>
+      <figure class="archive-card reveal"><img src="Frame_1.png" alt="Incognito vintage invitation"><figcaption>02 — The Family</figcaption></figure>
+      <figure class="archive-card reveal"><img src="Frame_3.png" alt="Incognito noir night"><figcaption>03 — The Night</figcaption></figure>
+      <figure class="archive-card reveal"><img src="Frame_5.png" alt="Incognito visual archive"><figcaption>04 — The Legacy</figcaption></figure>
     </div>
   </div>
 </section>
@@ -1298,7 +1305,7 @@
 <!-- 02 — THE NIGHT -->
 <section class="the-night" id="the-night">
   <div class="night-media">
-    <img src="Frame 4.png" alt="">
+    <img src="Frame_4.png" alt="">
     <div class="night-content">
       <div class="wrap" style="padding:0;">
         <div class="file-mark reveal"><span class="num editorial">File No. II</span><span class="rule"></span><span class="editorial">The Night</span></div>
